@@ -29,11 +29,11 @@ project "imgui"
 		runtime "Debug"
 		symbols "on"
 
-	filter "configuration:Release"
+	filter "configurations:Release"
 		runtime "Release"
 		optimize "on"
 
-	filter "configuration:Dist"
+	filter "configurations:Dist"
 		runtime "Release"
 		optimize "on"
 		symbols "off"
