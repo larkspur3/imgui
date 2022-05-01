@@ -8,12 +8,15 @@ imgui.ini
 *.o
 *.obj
 *.exe
+bin
+obj
 examples/build/*
 examples/*/Debug/*
 examples/*/Release/*
 examples/*/x64/*
 
 ## Visual Studio artifacts
+*.vcxproj
 .vs
 ipch
 *.opensdf
